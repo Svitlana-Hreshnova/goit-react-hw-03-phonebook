@@ -12,7 +12,7 @@ class ContactForm extends Component {
   };
 
   handleNumberChange = e => {
-    const input = e.target.value.replace(/\D/g, ''); // Видаляємо все, крім цифр
+    const input = e.target.value.replace(/\D/g, '');
     this.setState({ number: input });
   };
 
